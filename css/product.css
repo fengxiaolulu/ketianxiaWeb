@@ -1,0 +1,394 @@
+.pro {
+	background: url(../images/bg09.jpg);
+	padding-bottom: 40px;
+}
+
+.pro a {
+	text-decoration: none;
+}
+
+.pro .nav1 {
+	height: 234px;
+	margin-top: 30px;
+}
+
+.pro .nav1 p {
+	width: 50%;
+	height: 234px;
+	float: left;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.pro .nav1 p:nth-child(1) {
+	background: url(../images/bg10.jpg)no-repeat;
+}
+
+.pro .nav1 p:nth-child(2) {
+	background: url(../images/bg10-1.jpg)no-repeat;
+}
+
+.pro .nav1 p img {
+	width: 130px;
+	margin-top: 30px;
+}
+
+.pro .nav1 p span {
+	display: block;
+	font-size: 18px;
+	color: #222;
+	margin-top: 15px;
+}
+
+.pro .nav1 .on a {
+	display: block;
+	height: 234px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.pro .nav1 .on span {
+	color: #FFFFFF;
+}
+
+.pro .nav2 {
+	border: 1px solid #999999;
+	margin-top: 20px;
+	padding: 20px;
+	background: #FFFFFF;
+}
+
+.pro .nav2 p {
+	clear: both;
+	overflow: hidden;
+	font-size: 16px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+.pro .nav2 p a {
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+	margin: 0 10px;
+	font-size: 14px;
+	padding: 5px 10px;
+	line-height: 1.0;
+	color: #333333;
+}
+
+.pro .nav2 p span {
+	display: block;
+	float: left;
+}
+
+.pro .nav2 p a:hover {
+	background: #6663a6;
+	color: #FFFFFF;
+}
+
+.pro .nav2 p .on {
+	background: #6663a6;
+	color: #FFFFFF;
+}
+
+.pro .all {
+	clear: both;
+	overflow: hidden;
+}
+
+.pro .all li {
+	float: left;
+	width: 33.1%;
+	background: #FFFFFF;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 1px;
+}
+
+.pro .all li img {
+	width: 85%;
+}
+
+.pro .all li p {
+	margin-top: 10px;
+	color: #333333;
+	font-size: 18px;
+}
+
+.pro .all li:hover p {
+	color: #6663a6;
+}
+
+.pro .text {
+	clear: both;
+	overflow: hidden;
+	margin-top: 70px;
+}
+
+#focus1 {
+	width: 600px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+#focus1 .hd {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	bottom: 0px;
+	text-align: center;
+}
+
+#focus1 .hd ul {
+	display: inline-block;
+	padding: 3px 5px;
+	font-size: 0;
+	vertical-align: top;
+	margin-bottom: 0;
+}
+
+#focus1 .hd ul li {
+	display: inline-block;
+	width: 40px;
+	height: 4px;
+	background: #d2d2d2;
+	margin: 0 5px;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+#focus1 .hd ul .on {
+	background: #6663a6;
+}
+
+#focus1 .bd {
+	position: relative;
+	z-index: 0;
+}
+
+#focus1 .bd li img {
+	width: 100%;
+	height: 330px;
+}
+
+.pro .text .right {
+	width: 535px;
+	float: right;
+}
+
+.pro .text .right .p1 {
+	font-size: 24px;
+}
+
+.pro .text .right .p2 {
+	font-size: 16px;
+	color: #666;
+	line-height: 1.8;
+}
+
+.pro .text .right hr {
+	margin: 13px 0;
+	border-top: 1px solid #CCCCCC;
+}
+
+.pro .link {
+	clear: both;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.pro .link a {
+	font-size: 16px;
+	color: #888888;
+}
+
+.pro .link a:nth-child(2) {
+	float: right;
+}
+
+@media only screen and (max-width: 640px) {
+	.pro {
+		background: url(../images/bg09.jpg);
+		padding-bottom: 40px;
+	}
+	.pro a {
+		text-decoration: none;
+	}
+	.pro .nav1 {
+		height: auto;
+		margin-top: 30px;
+	}
+	.pro .nav1 p {
+		width: 100%;
+		height: 180px;
+		float: none;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.pro .nav1 p:nth-child(1) {
+		background: url(../images/bg10.jpg)no-repeat center bottom;
+	}
+	.pro .nav1 p:nth-child(2) {
+		background: url(../images/bg10-1.jpg)no-repeat center bottom;
+	}
+	.pro .nav1 p img {
+		width: 90px;
+		margin-top: 20px;
+	}
+	.pro .nav1 p span {
+		display: block;
+		font-size: 18px;
+		color: #000;
+		margin-top: 20px;
+	}
+	.pro .nav1 .on a {
+		display: block;
+		height: 180px;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+	.pro .nav1 .on span {
+		color: #FFFFFF;
+	}
+	.pro .nav2 {
+		border: 1px solid #999999;
+		margin-top: 20px;
+		padding: 20px;
+		background: #FFFFFF;
+	}
+	.pro .nav2 p {
+		clear: both;
+		overflow: hidden;
+		font-size: 15px;
+		padding-bottom: 5px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		border-bottom: 1px dashed #CCCCCC;
+	}
+	.pro .nav2 p a {
+		display: block;
+		float: left;
+		margin-bottom: 10px;
+		margin: 0 5px;
+		font-size: 14px;
+		padding: 5px 10px;
+		line-height: 1.0;
+		color: #333333;
+	}
+	.pro .nav2 p span {
+		display: block;
+		float: left;
+	}
+	.pro .nav2 p a:hover {
+		background: #6663a6;
+		color: #FFFFFF;
+	}
+	.pro .nav2 p .on {
+		background: #6663a6;
+		color: #FFFFFF;
+	}
+	.pro .all {
+		clear: both;
+		overflow: hidden;
+	}
+	.pro .all li {
+		float: left;
+		width: 49.5%;
+		background: #FFFFFF;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: 1px;
+	}
+	.pro .all li img {
+		width: 95%;
+	}
+	.pro .all li p {
+		margin-top: 10px;
+		color: #333333;
+		font-size: 15px;
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.pro .all li:hover p {
+		color: #6663a6;
+	}
+	.pro .text {
+		clear: both;
+		overflow: hidden;
+		margin-top: 30px;
+	}
+	#focus1 {
+		width: 100%;
+		float: none;
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 30px;
+	}
+	#focus1 .hd {
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		bottom: 0px;
+		text-align: center;
+	}
+	#focus1 .hd ul {
+		display: inline-block;
+		padding: 3px 5px;
+		font-size: 0;
+		vertical-align: top;
+		margin-bottom: 0;
+	}
+	#focus1 .hd ul li {
+		display: inline-block;
+		width: 30px;
+		height: 4px;
+		background: #d2d2d2;
+		margin: 0 5px;
+		vertical-align: top;
+		overflow: hidden;
+	}
+	#focus1 .hd ul .on {
+		background: #6663a6;
+	}
+	#focus1 .bd {
+		position: relative;
+		z-index: 0;
+	}
+	#focus1 .bd li img {
+		width: 100%;
+		height: auto;
+	}
+	.pro .text .right {
+		width:100%;
+		float: none;
+	}
+	.pro .text .right .p1 {
+		font-size: 24px;
+	}
+	.pro .text .right .p2 {
+		font-size: 16px;
+		color: #666;
+		line-height: 1.6;
+	}
+	.pro .text .right hr {
+		margin: 10px 0;
+		border-top: 1px solid #CCCCCC;
+	}
+	.pro .link {
+		clear: both;
+		overflow: hidden;
+		margin-top: 50px;
+	}
+	.pro .link a {
+		font-size: 16px;
+		color: #888888;
+	}
+	.pro .link a:nth-child(2) {
+		float: right;
+	}
+}

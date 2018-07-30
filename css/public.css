@@ -1,0 +1,239 @@
+@media only screen and (min-width: 640px) {
+	.footer{
+		margin-top: 0;
+	}
+	.banner1 {
+		height: 350px;
+		background: url(../images/nybanner01.jpg)no-repeat center;
+	}
+	.banner2 {
+		height: 350px;
+		background: url(../images/nybanner02.jpg)no-repeat center;
+	}
+	.banner3 {
+		height: 350px;
+		background: url(../images/nybanner03.jpg)no-repeat center;
+	}
+	.banner4 {
+		height: 350px;
+		background: url(../images/nybanner04.jpg)no-repeat center;
+	}
+	.banner5 {
+		height: 350px;
+		background: url(../images/nybanner05.jpg)no-repeat center;
+	}
+	.banner6 {
+		height: 350px;
+		background: url(../images/nybanner06.jpg)no-repeat center;
+	}
+	.banner7 {
+		height: 350px;
+		background: url(../images/nybanner07.jpg)no-repeat center;
+	}
+	.banner8 {
+		height: 350px;
+		background: url(../images/nybanner08.jpg)no-repeat center;
+	}
+	.banner1 img,
+	.banner2 img,
+	.banner3 img,
+	.banner4 img,
+	.banner5 img,
+	.banner6 img,
+	.banner7 img,
+	.banner8 img {
+		display: none;
+	}
+	.detail {
+		position: relative;
+		z-index: 99;
+		top: -110px;
+		perspective: 2000px;
+        perspective-origin: top;
+	}
+	.detail .nytitle {
+		position: relative;
+		background: #FFFFFF;
+		height: 110px;
+		padding-left: 30px;
+		padding-top: 30px;
+		border-bottom: 1px solid #E3E3E3;
+		animation-name: fadeInUp;
+		-webkit-animation-name: fadeInUp;
+		transition: 0.7s;
+		transform-origin: bottom center;
+		-webkit-transform-origin: center bottom;
+		-ms-transform-origin: center bottom;
+	}
+	.detail .nytitle .p1 {
+		font-size: 20px;
+		color: #333333;
+		margin-bottom: 0;
+	}
+	.detail .nytitle .p2 {
+		font-size: 16px;
+		color: #888;
+	}
+	.detail .nyhid {
+		-webkit-transform: rotateX(94deg) rotateZ(0);
+		transform: rotateX(93deg) rotateZ(0);
+	}
+	@-webkit-keyframes fadeInUp {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateY(10%);
+			transform: translateY(10%)
+		}
+		100% {
+			opacity: 1;
+			-webkit-transform: translateY(0);
+			transform: translateY(0)
+		}
+	}
+	@keyframes fadeInUp {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateY(10%);
+			transform: translateY(10%)
+		}
+		100% {
+			opacity: 1;
+			-webkit-transform: translateY(0);
+			transform: translateY(0)
+		}
+	}
+	.detail .content{
+		clear: both;
+		overflow: hidden;
+		margin-top: 30px;
+	}
+	.detail .content .left{
+		width: 180px;
+		float: left;
+		margin-left: 30px;
+	}
+	.detail .content .left p{
+		border-bottom: 1px solid #E3E3E3;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+	.detail .content .left p a{
+		color: #666;
+		font-size: 16px;
+		padding-left: 15px;
+		border-left: 3px solid #de7c77;
+		text-decoration: none;
+		transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	}
+	.detail .content .left p:hover a{
+		border-left: 3px solid #da251d;
+		margin-left: 15px;
+		color: #222;
+	}
+	.detail .content .left .a2 a{
+		border-left: 3px solid #da251d;
+		margin-left: 15px;
+		color: #222;
+	}
+	.detail .content .right{
+		float: right;
+		width: 960px;
+		padding-right: 30px;
+	}
+	.yema {
+		margin-top: 10px;
+		display: table;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.yema li {
+		float: left;
+		margin-right: 10px;
+	}
+	.yema li a {
+		display: block;
+		border-radius: 3px;
+		color: #666;
+		border: 1px solid #b3b3b3;
+		text-decoration: none;
+		padding: 3px 10px;
+		font-size: 14px;
+	}
+	.yema li a:hover {
+		background: #da251d;
+		color: #FFFFFF;
+	}
+	.yema li .cur {
+		background: #da251d;
+		color: #FFFFFF;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.banner1 img,
+	.banner2 img,
+	.banner3 img,
+	.banner4 img,
+	.banner5 img,
+	.banner6 img {
+		width: 100%;
+		position: relative;
+	}
+	.detail {
+		clear: both;
+		overflow: hidden;
+		width: 100%;
+	}
+	.detail .place {
+		z-index: 99;
+		position: absolute;
+		width: 90%;
+		margin-left: 5%;
+		height: 85px;
+		padding-left: 20px;
+		padding-top: 10px;
+		margin-top: 40%;
+		background: rgba(255, 255, 255, 0.7);
+	}
+	.detail .place .p1 {
+		color: #333333;
+	}
+	.detail .place .p1 a {
+		color: #333333;
+		margin: 0 5px;
+	}
+	.detail .place .p2 {
+		font-size: 26px;
+		color: #666;
+		line-height: 1.0;
+	}
+	.yema {
+		margin-top: 20px;
+		display: table;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.yema .first,
+	.yema .last {
+		display: none;
+	}
+	.yema li {
+		float: left;
+		margin-right: 10px;
+	}
+	.yema li a {
+		display: block;
+		border-radius: 3px;
+		color: #666;
+		border: 1px solid #b3b3b3;
+		text-decoration: none;
+		padding: 1px 8px;
+		font-size: 14px;
+	}
+	.yema li .cur {
+		background: #6663a6;
+		color: #FFFFFF;
+	}
+}

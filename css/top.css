@@ -1,0 +1,138 @@
+
+.floating_ck {
+	position: fixed;
+	right: 20px;
+	top: 35%;
+	z-index: 999;
+}
+
+.floating_ck dl dd {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	background-color: #808080;
+	border-bottom: solid 1px #757575;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	cursor: pointer;
+}
+
+.floating_ck dl dd:hover {
+	background-color: #da251d;
+}
+
+.floating_ck dl dd:hover .floating_left {
+	display: block;
+}
+
+.consult {
+	background-image: url(../images/icon0701/kficon.png);
+}
+
+.words {
+	background-image: url(../images/icon0701/zxicon.png);
+}
+
+.quote {
+	background-image: url(../images/icon0701/kficon.png);
+}
+
+.qrcord {
+	background-image: url(../images/icon0701/erweima.png);
+}
+
+.return {
+	background-image: url(../images/icon0701/fanhui.png);
+}
+
+.floating_ck dd span {
+	color: #fff;
+	display: block;
+	padding-top: 45px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+.floating_left {
+	position: absolute;
+	left: -130px;
+	top: 0px;
+	width: 130px;
+	height: 70px;
+	background-color: #da251d;
+	display: none;
+}
+
+.floating_left a {
+	color: #fff;
+	line-height: 70px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.floating_ewm,
+.floating_ewm2 {
+	height: 170px;
+	top: -100px;
+}
+
+.floating_ewm i {
+	background: url(../images/erweima.jpg) no-repeat center; 
+	background-size: 100% 100%;
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.floating_ewm2 i {
+	background: url(../images/erweima.jpg)no-repeat center;
+	background-size: 100% 100%;
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.floating_ewm p,
+.floating_ewm2 p {
+	color: #fff;
+	margin-top: 5px;
+}
+
+.qrcord_p01 {
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "微软雅黑";
+}
+
+.qrcord_p02 {
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+
+@media only screen and (max-width: 640px) {
+	.floating_ck {
+		position: fixed;
+		right: 10px;
+		top: 85%;
+		z-index: 5;
+	}
+	.floating_ck dl dd {
+		position: relative;
+		width: 65px;
+		height: 70px;
+		background-color: rgba(0,0,0,0.6);
+		border-bottom: none;
+		text-align: center;
+		background-repeat: no-repeat;
+		background-position: center 25%;
+		cursor: pointer;
+	}
+	.floating_ck dl dd:hover {
+		background-color: rgba(0,0,0,0.6);
+	}
+}
